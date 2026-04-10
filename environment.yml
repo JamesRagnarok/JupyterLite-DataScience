@@ -11,12 +11,11 @@ dependencies:
   - matplotlib
   - seaborn
   - statsmodels
-
+  - scikit-learn
   - scikit-posthocs
   - scipy
   - pip
   - pip:
-    - sklearn
     - tabulate
     - textwrap3
     - matplotlib_venn
