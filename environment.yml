@@ -1,0 +1,21 @@
+name: xeus-kernel
+channels:
+  - https://repo.mamba.pm/emscripten-forge
+  - conda-forge
+dependencies:
+  - python=3.11
+  - xeus-python
+  - ipycanvas
+  - ipywidgets
+  - pandas=1.5.3
+  - matplotlib
+  - seaborn
+  - statsmodels
+  - scikit-posthocs
+  - scipy
+  - pip
+  - pip:
+    - tabulate
+    - textwrap3
+    - matplotlib_venn
+    - bioinfokit
